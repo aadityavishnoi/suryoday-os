@@ -60,17 +60,17 @@ function App() {
               role: "भारत के माननीय राष्ट्रपति",
             },
             {
-              img: "https://scontent.fagr1-3.fna.fbcdn.net/v/t39.30808-6/459337720_1303104714517091_2841079786125894817_n.jpg",
+              img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGrKlBcAbAJZKueIujU8OZCyoII0Rzpwx_RuLPHHKwRM9hdnW2QkcEUh38nD3oXaSZUUic9hi83dOfGEUM4G79nKIJTWUtAWrYodldDZ4&s=10",
               name: "श्री नरेंद्र मोदी",
               role: "भारत के माननीय प्रधानमंत्री",
             },
             {
-              img: "https://scontent.fagr1-3.fna.fbcdn.net/v/t39.30808-6/367400249_831809051843175_3472940923652535254_n.jpg?_nc_cat=105&ccb=1-7",
+              img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcygLv8qwjDkcc2yfSF0xJ72FcjCwm0n1b1Nn9ZlPazOvS4JOINOsDTtkS7wL9GTka9gIkt6jLWVOuYEcjGATS4iEYnAywOL6S70z4hPY&s=10",
               name: "श्री शिवराज सिंह चौहान",
               role: "कृषि एवं किसान कल्याण मंत्री",
             },
             {
-              img: "https://scontent.fagr1-3.fna.fbcdn.net/v/t39.30808-6/378983958_929288798552749_3157032759071580316_n.jpg?_nc_cat=1&ccb=1-7",
+              img: "http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcvdxnBk9f_EnNZu5shk-gIetyNP-d2tSCINgqlJ4N-_UxXxZCSzY-o91lxKGMk8U8LqwrR_RRInrBSrL6jE3kSxBZxSNW6yF-yuoGlEw&s=10",
               name: "श्री अमित शाह",
               role: "भारत के गृह मंत्री",
             },
