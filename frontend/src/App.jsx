@@ -95,6 +95,9 @@ function App() {
 
       {/* MENU */}
       <div className="bg-white p-4 sm:p-6 border border-gray-200 rounded-md flex justify-center mt-6">
+        <h3 className="text-lg font-outfit font-semibold text-gray-800 mb-4">
+          मुख्य मेन्यू
+        </h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 w-full place-items-center">
 
           {[
