@@ -45,53 +45,49 @@ function App() {
         </div>
       )}
 
-      {/* Government Dignitaries */}
-      <div className="bg-white p-4 sm:p-6 border border-gray-200 rounded-md flex flex-col items-center">
-        <h3 className="text-lg font-outfit font-semibold text-gray-800 mb-4">
-          सरकारी नेतृत्व
-        </h3>
+      {/* LIVE FARM STATUS (DEMO) */}
+<div className="bg-white p-4 sm:p-6 border border-gray-200 rounded-md flex flex-col items-center">
+  <h3 className="text-lg font-outfit font-semibold text-gray-800 mb-4">
+    आज की खेती स्थिति (Live Demo)
+  </h3>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 w-full place-items-center">
+  <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full place-items-center">
 
-          {[
-            {
-              img: "https://www.presidentofindia.gov.in/sites/default/files/2025-04/president_of_india.jpg",
-              name: "श्रीमती द्रौपदी मुर्मू",
-              role: "भारत के माननीय राष्ट्रपति",
-            },
-            {
-              img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGrKlBcAbAJZKueIujU8OZCyoII0Rzpwx_RuLPHHKwRM9hdnW2QkcEUh38nD3oXaSZUUic9hi83dOfGEUM4G79nKIJTWUtAWrYodldDZ4&s=10",
-              name: "श्री नरेंद्र मोदी",
-              role: "भारत के माननीय प्रधानमंत्री",
-            },
-            {
-              img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcygLv8qwjDkcc2yfSF0xJ72FcjCwm0n1b1Nn9ZlPazOvS4JOINOsDTtkS7wL9GTka9gIkt6jLWVOuYEcjGATS4iEYnAywOL6S70z4hPY&s=10",
-              name: "श्री शिवराज सिंह चौहान",
-              role: "कृषि एवं किसान कल्याण मंत्री",
-            },
-            {
-              img: "http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcvdxnBk9f_EnNZu5shk-gIetyNP-d2tSCINgqlJ4N-_UxXxZCSzY-o91lxKGMk8U8LqwrR_RRInrBSrL6jE3kSxBZxSNW6yF-yuoGlEw&s=10",
-              name: "श्री अमित शाह",
-              role: "भारत के गृह मंत्री",
-            },
-          ].map((p, i) => (
-            <div
-              key={i}
-              className="border border-gray-300 rounded-md overflow-hidden bg-gray-50 w-full max-w-[180px]"
-            >
-              <img src={p.img} alt={p.name} className="w-full h-52 object-fill" />
-              <div className="p-3 text-center">
-                <p className="font-semibold font-outfit text-gray-900 text-sm">
-                  {p.name}
-                </p>
-                <p className="text-xs font-outfit text-gray-600">
-                  {p.role}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+    {/* Temperature */}
+    <div className="w-full max-w-[180px] rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 text-white p-4 shadow">
+      <div className="text-3xl mb-2">🌡️</div>
+      <p className="text-sm opacity-90">तापमान</p>
+      <p className="text-2xl font-bold">32°C</p>
+      <p className="text-xs opacity-80 mt-1">सामान्य से अधिक</p>
+    </div>
+
+    {/* Humidity */}
+    <div className="w-full max-w-[180px] rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 text-white p-4 shadow">
+      <div className="text-3xl mb-2">💧</div>
+      <p className="text-sm opacity-90">हवा में नमी</p>
+      <p className="text-2xl font-bold">58%</p>
+      <p className="text-xs opacity-80 mt-1">फसल के लिए ठीक</p>
+    </div>
+
+    {/* Soil Moisture */}
+    <div className="w-full max-w-[180px] rounded-xl bg-gradient-to-br from-green-500 to-green-700 text-white p-4 shadow">
+      <div className="text-3xl mb-2">🌱</div>
+      <p className="text-sm opacity-90">मृदा नमी</p>
+      <p className="text-2xl font-bold">41%</p>
+      <p className="text-xs opacity-80 mt-1">सिंचाई की ज़रूरत</p>
+    </div>
+
+    {/* Crop Health */}
+    <div className="w-full max-w-[180px] rounded-xl bg-gradient-to-br from-lime-500 to-emerald-600 text-white p-4 shadow">
+      <div className="text-3xl mb-2">🌾</div>
+      <p className="text-sm opacity-90">फसल स्थिति</p>
+      <p className="text-2xl font-bold">अच्छी</p>
+      <p className="text-xs opacity-80 mt-1">NDVI: 0.72</p>
+    </div>
+
+  </div>
+</div>
+
 
       {/* MENU */}
       <div className="bg-white p-4 sm:p-6 border border-gray-200 rounded-md flex flex-col justify-center items-center mt-6">
